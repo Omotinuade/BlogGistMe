@@ -27,6 +27,7 @@ public class ArticleRepositoryImpl implements ArticleRepository{
     @Override
     public Article findById(int id) {
         for (Article article: articles) if (article.getId() == id) return article;
+        else {throw new IllegalArgumentException("Id not found....");}
         return null;
     }
 

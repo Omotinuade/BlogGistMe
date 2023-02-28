@@ -49,4 +49,14 @@ public class Article {
         this.authorId = authorId;
     }
 
+    @Override
+    public String toString() {
+        return "Article{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", body='" + body + '\'' +
+                ", timeCreated=" + timeCreated +
+                ", authorId=" + authorId +
+                '}';
+    }
 }

@@ -4,8 +4,7 @@ import data.models.User;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class UserRepositoryImpl implements UserRepository{
+public class UserRepositoryImpl implements UserRepository {
     private int count;
     private List<User> users = new ArrayList<>();
     @Override
@@ -26,7 +25,7 @@ public class UserRepositoryImpl implements UserRepository{
     @Override
     public User findById(int id) {
         for (User user: users) if (user.getId() == id)return user;
-
+        else throw new NullPointerException("Id not found...");
         return null;
     }
 
@@ -58,5 +57,13 @@ public class UserRepositoryImpl implements UserRepository{
     public void deleteAll() {
         users.clear();
         count = 0;
+    }
+
+    @Override
+    public User findByUserName(String userName) {
+        for (User user : users){
+            if (user.getUserName().equalsIgnoreCase(userName)) return user;
+        }
+        return null;
     }
 }
