@@ -5,17 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1e75ffd-5e12-4c3f-9e9f-7d199aea72de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dtos/requests/CreateArticleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/services/ArticleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/ArticleServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GistMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GistMe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/controllers/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/models/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/models/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/repositories/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/ArticleRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/repositories/ArticleRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/repositories/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CommentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/repositories/CommentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/data/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/requests/CreateArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/dtos/requests/CreateArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/requests/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/dtos/requests/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dtos/responses/FindUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/dtos/responses/FindUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/services/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/services/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/services/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/services/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/semicolon/gistMeBlog/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/ArticleRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/gistMeBlog/data/repositories/ArticleRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/CommentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/gistMeBlog/data/repositories/CommentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/gistMeBlog/data/repositories/UserRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/ArticleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/gistMeBlog/services/ArticleServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/africa/semicolon/gistMeBlog/services/UserServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +101,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2LY7zTGTkV2p0XsBc1vSCMXH3BI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,6 +120,12 @@
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -81,17 +152,17 @@
       <recent name="data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArticleServiceImplTest.saveNewArticle_noOfArticlesIsOneTest">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="ArticleServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="services.*" />
+          <option name="PATTERN" value="africa.semicolon.gistMeBlog.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.ArticleServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.gistMeBlog.services.ArticleServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,12 +172,12 @@
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="services.*" />
+          <option name="PATTERN" value="africa.semicolon.gistMeBlog.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.ArticleServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.gistMeBlog.services.ArticleServiceImplTest" />
       <option name="METHOD_NAME" value="saveNewArticle_noOfArticlesIsOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -117,29 +188,14 @@
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="services.*" />
+          <option name="PATTERN" value="africa.semicolon.gistMeBlog.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.ArticleServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.gistMeBlog.services.ArticleServiceImplTest" />
       <option name="METHOD_NAME" value="shouldThrowException_ifAuthorIdIsInvalid" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GistMe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.UserRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,24 +204,31 @@
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="services.*" />
+          <option name="PATTERN" value="africa.semicolon.gistMeBlog.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="services" />
-      <option name="MAIN_CLASS_NAME" value="services.UserServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.gistMeBlog.services.UserServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="GistMe" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.gistMeBlog.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.ArticleServiceImplTest.saveNewArticle_noOfArticlesIsOneTest" />
         <item itemvalue="JUnit.ArticleServiceImplTest" />
         <item itemvalue="JUnit.ArticleServiceImplTest.shouldThrowException_ifAuthorIdIsInvalid" />
         <item itemvalue="JUnit.UserServiceImplTest" />
-        <item itemvalue="JUnit.UserRepositoryImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +246,7 @@
       <workItem from="1676356360021" duration="7664000" />
       <workItem from="1677577260899" duration="160000" />
       <workItem from="1677577597905" duration="12204000" />
+      <workItem from="1677753599920" duration="6985000" />
     </task>
     <servers />
   </component>
