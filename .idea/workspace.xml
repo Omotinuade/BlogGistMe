@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e1e75ffd-5e12-4c3f-9e9f-7d199aea72de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GistMe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/models/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/models/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/ArticleRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/CommentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repositories/ArticleRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repositories/CommentRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/requests/CreateArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/ArticleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/ArticleServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +26,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="mk2en5ps" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,10 +57,20 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm"
+    "dart.analysis.tool.window.visible": "false",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,39 +81,55 @@
       <recent name="data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArticleRepositoryImplTest">
-    <configuration name="ArticleRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArticleServiceImplTest.saveNewArticle_noOfArticlesIsOneTest">
+    <configuration name="ArticleServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.ArticleRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.ArticleServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleRepositoryImplTest.saveTwoPosts_DeleteTwoPostsAndCountIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleServiceImplTest.saveNewArticle_noOfArticlesIsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.ArticleRepositoryImplTest" />
-      <option name="METHOD_NAME" value="saveTwoPosts_DeleteTwoPostsAndCountIsZero" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.ArticleServiceImplTest" />
+      <option name="METHOD_NAME" value="saveNewArticle_noOfArticlesIsOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommentRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleServiceImplTest.shouldThrowException_ifAuthorIdIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GistMe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.ArticleServiceImplTest" />
+      <option name="METHOD_NAME" value="shouldThrowException_ifAuthorIdIsInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
@@ -111,51 +138,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.CommentRepositoryImplTest" />
+      <option name="MAIN_CLASS_NAME" value="data.repositories.UserRepositoryImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommentRepositoryImplTest.findAllCommentsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GistMe" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.CommentRepositoryImplTest" />
-      <option name="METHOD_NAME" value="findAllCommentsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommentRepositoryImplTest.saveTwoComments_DeleteTwoCommentAndCountIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GistMe" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.CommentRepositoryImplTest" />
-      <option name="METHOD_NAME" value="saveTwoComments_DeleteTwoCommentAndCountIsZero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArticleRepositoryImplTest" />
-        <item itemvalue="JUnit.ArticleRepositoryImplTest.saveTwoPosts_DeleteTwoPostsAndCountIsZero" />
-        <item itemvalue="JUnit.CommentRepositoryImplTest" />
-        <item itemvalue="JUnit.CommentRepositoryImplTest.findAllCommentsTest" />
-        <item itemvalue="JUnit.CommentRepositoryImplTest.saveTwoComments_DeleteTwoCommentAndCountIsZero" />
+        <item itemvalue="JUnit.ArticleServiceImplTest.saveNewArticle_noOfArticlesIsOneTest" />
+        <item itemvalue="JUnit.ArticleServiceImplTest" />
+        <item itemvalue="JUnit.ArticleServiceImplTest.shouldThrowException_ifAuthorIdIsInvalid" />
+        <item itemvalue="JUnit.UserServiceImplTest" />
+        <item itemvalue="JUnit.UserRepositoryImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +181,8 @@
       <workItem from="1676052924288" duration="10582000" />
       <workItem from="1676094827932" duration="5753000" />
       <workItem from="1676356360021" duration="7664000" />
+      <workItem from="1677577260899" duration="160000" />
+      <workItem from="1677577597905" duration="12204000" />
     </task>
     <servers />
   </component>
@@ -187,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

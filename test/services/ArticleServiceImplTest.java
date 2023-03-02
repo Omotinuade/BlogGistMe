@@ -1,30 +1,81 @@
 package services;
 
 import data.models.Article;
+import dtos.requests.CreateArticleRequest;
+import dtos.requests.RegisterRequest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
-class ArticleServiceImplTest {
+public class ArticleServiceImplTest {
     ArticleService articleService;
-    Article article;
+    UserService userService;
+    Article savedArticle;
+    CreateArticleRequest createArticleRequest;
 
     @BeforeEach
-    void setUp(){
+    public void setUp(){
         articleService = new ArticleServiceImpl();
-        article = articleService.createPost("Felix...", "This feelings....", 1);
+        CreateArticleRequest createArticleRequest = new CreateArticleRequest();
+        createArticleRequest.setBody("My Body");
+        createArticleRequest.setTitle("My Title");
+        createArticleRequest.setAuthorId(1);
+        userService = new UserServiceImpl();
+
     }
+
+    @Test
+    public void saveNewArticle_noOfArticlesIsOneTest(){
+        articleService = new ArticleServiceImpl();
+        RegisterRequest request = new RegisterRequest();
+        request.setFirstName("Firstname");
+        var response = userService.register(request);
+        System.out.println(response.getFirstName());
+        System.out.println(response.getId());
+        var ourSavedUser = userService.findUser(1);
+        System.out.println(ourSavedUser);
+
+        CreateArticleRequest createArticleRequest = new CreateArticleRequest();
+        createArticleRequest.setBody("My Body");
+        createArticleRequest.setTitle("My Title");
+        createArticleRequest.setAuthorId(1);
+        savedArticle = articleService.createNewArticle(createArticleRequest);
+
+        assertEquals(1, articleService.count());
+    }
+
+    @Test
+    public void shouldThrowException_ifAuthorIdIsInvalid(){
+        articleService = new ArticleServiceImpl();
+        CreateArticleRequest createArticleRequest = new CreateArticleRequest();
+        createArticleRequest.setBody("My Body");
+        createArticleRequest.setTitle("My Title");
+        createArticleRequest.setAuthorId(1);
+        assertThrows(IllegalArgumentException.class, ()-> articleService.createNewArticle(createArticleRequest));
+        try{
+            articleService.createNewArticle(createArticleRequest);
+        }
+        catch (IllegalArgumentException ex){
+            assertEquals("Author with id 1 does not exist", ex.getMessage());
+        }
+
+    }
+
+
+
+
+
+
     @Test public void savePost_postIdIsNotZero(){
-        assertTrue(article.getId() != 0);
+        assertTrue(savedArticle.getId() != 0);
     }
 
     @Test public void findPostWithId(){
-        Article found = articleService.findPost(1);
+        Article found = articleService.findArticle(1);
         assertEquals("Felix...", found.getTitle());
     }
 
     @Test public void ThrowExceptionWhenWrongIdIsFound(){
-        assertThrows(IllegalArgumentException.class, ()-> articleService.findPost(2));
+        assertThrows(IllegalArgumentException.class, ()-> articleService.findArticle(2));
     }
 }

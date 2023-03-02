@@ -25,7 +25,6 @@ public class UserRepositoryImpl implements UserRepository {
     @Override
     public User findById(int id) {
         for (User user: users) if (user.getId() == id)return user;
-        else throw new NullPointerException("Id not found...");
         return null;
     }
 

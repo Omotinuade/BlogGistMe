@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 
 public class UserServiceImpl implements UserService{
-    private UserRepository userRepository = new UserRepositoryImpl();
+    private static UserRepository userRepository = new UserRepositoryImpl();
     @Override
     public User register(RegisterRequest registerRequest) {
         if (userExist(registerRequest.getUsername())) throw new IllegalArgumentException(registerRequest.getUsername() + "already exist");
@@ -31,6 +31,7 @@ public class UserServiceImpl implements UserService{
     @Override
     public FindUserResponse findUser(int id) {
         User foundUser = userRepository.findById(id);
+        if (foundUser == null ) throw new NullPointerException("User does not exist");
         FindUserResponse response = new FindUserResponse();
         Mapper.map(foundUser, response);
         return response;

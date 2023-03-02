@@ -7,11 +7,12 @@ public class ArticleController {
     private ArticleService articleService = new ArticleServiceImpl();
 
     public Object createPost(String title, String body, int id) {
-        return articleService.createPost(title, body, id).toString();
+        return null;
+//        return articleService.createNewArticle(title, body, id).toString();
     }
     public Object findPost(int id) {
         try {
-            return articleService.findPost(id);
+            return articleService.findArticle(id);
         } catch (IllegalArgumentException e) {
             return e.getMessage();
         }
