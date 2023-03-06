@@ -1,47 +1,22 @@
 package africa.semicolon.gistMeBlog.data.models;
 
-import java.time.LocalDateTime;
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.DBRef;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Data
+@Document
 public class Comment {
-    private int id;
-    private int articleId;
-    private int userId;
+   @Id
+    private String id;
+    private String articleId;
+    private String userId;
+
     private String comment;
     private LocalDateTime timeCreated = LocalDateTime.now();
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getArticleId() {
-        return articleId;
-    }
-
-    public void setArticleId(int articleId) {
-        this.articleId = articleId;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    public String getComment() {
-        return comment;
-    }
-
-    public void setComment(String comment) {
-        this.comment = comment;
-    }
-
-    public void setTimeCreated(LocalDateTime timeCreated) {
-        this.timeCreated = timeCreated;
-    }
 }

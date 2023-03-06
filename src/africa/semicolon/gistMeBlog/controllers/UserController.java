@@ -1,25 +1,31 @@
 package africa.semicolon.gistMeBlog.controllers;
 
 import africa.semicolon.gistMeBlog.dtos.requests.RegisterRequest;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import africa.semicolon.gistMeBlog.services.UserService;
 import africa.semicolon.gistMeBlog.services.UserServiceImpl;
 
 @RestController
 public class UserController {
-    private UserService userService = new UserServiceImpl();
+    @Autowired
+    private UserService userService;
 
    @PostMapping("/user/register")
-    public Object register(@RequestBody RegisterRequest request){
+    public ResponseEntity<?> register(@RequestBody RegisterRequest request){
+
        try {
-           return userService.register(request);
+
+           return new ResponseEntity<>(userService.register(request), HttpStatus.CREATED);
        }catch (IllegalArgumentException ex){
-           return ex.getMessage();
+           return new ResponseEntity<>(ex.getMessage(), HttpStatus.SERVICE_UNAVAILABLE);
        }
     }
 
     @GetMapping("/user/{id}")
-    public Object findUserById(@PathVariable int id){
+    public Object findUserById(@PathVariable String id){
         return userService.findUser(id);
     }
 }

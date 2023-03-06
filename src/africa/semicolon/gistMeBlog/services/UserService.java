@@ -6,12 +6,7 @@ import africa.semicolon.gistMeBlog.dtos.responses.FindUserResponse;
 
 public interface UserService {
     User register(RegisterRequest request);
-    FindUserResponse findUser(int id);
-//    List<FindUserResponse> findAll();
+    FindUserResponse findUser(String id);
     void delete(User user);
-    void delete(int id);
-//    void deleteAll();
-//
-//    FindUserResponse findByUsername();
-//    User findId(int id);
+
 }

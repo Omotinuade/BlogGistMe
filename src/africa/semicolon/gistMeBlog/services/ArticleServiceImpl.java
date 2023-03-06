@@ -2,12 +2,17 @@ package africa.semicolon.gistMeBlog.services;
 
 import africa.semicolon.gistMeBlog.data.models.Article;
 import africa.semicolon.gistMeBlog.data.repositories.ArticleRepository;
-import africa.semicolon.gistMeBlog.data.repositories.ArticleRepositoryImpl;
 import africa.semicolon.gistMeBlog.dtos.requests.CreateArticleRequest;
 import africa.semicolon.gistMeBlog.utils.Mapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ArticleServiceImpl implements ArticleService{
-    ArticleRepository articleRepository = new ArticleRepositoryImpl();
+
+    @Autowired
+    ArticleRepository articleRepository;
     UserService userService = new UserServiceImpl();
 
     @Override
@@ -37,8 +42,8 @@ public class ArticleServiceImpl implements ArticleService{
     }
 
     @Override
-    public Article findArticle(int id) {
-        return articleRepository.findById(id);
+    public Article findArticle(String id) {
+        return articleRepository.findById(id).get();
     }
 
     @Override

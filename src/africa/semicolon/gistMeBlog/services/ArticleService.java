@@ -6,7 +6,7 @@ import africa.semicolon.gistMeBlog.dtos.requests.CreateArticleRequest;
 public interface ArticleService {
     Article createNewArticle(CreateArticleRequest createArticleRequest);
 
-    Article findArticle(int id);
+    Article findArticle(String id);
 
     long count();
 }
