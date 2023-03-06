@@ -1,15 +1,14 @@
 package africa.semicolon.gistMeBlog;
 
-import africa.semicolon.gistMeBlog.controllers.ArticleController;
-import africa.semicolon.gistMeBlog.controllers.UserController;
-import africa.semicolon.gistMeBlog.dtos.requests.RegisterRequest;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 import javax.swing.*;
 
 
 @SpringBootApplication
+@EnableMongoRepositories
 public class Main {
 //    private static UserController userController = new UserController();
 //    private static ArticleController articleController = new ArticleController();
